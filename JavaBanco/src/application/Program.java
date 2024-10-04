@@ -40,10 +40,17 @@ public class Program {
 		}
 		
 		
-		System.out.println("\n=== TEST 4: seller insert =====");
-		Seller newSeller = new Seller(null, "Greg", "greg@gmail.com", LocalDate.now(), 4000.0, department);
-		sell.insert(newSeller);
-		System.out.println("Inserted! New id = " + newSeller.getId());
+		//System.out.println("\n=== TEST 4: seller insert =====");
+		//Seller newSeller = new Seller(null, "Greg", "greg@gmail.com", LocalDate.now(), 4000.0, department);
+		//sell.insert(newSeller);
+		//System.out.println("Inserted! New id = " + newSeller.getId());
+		
+		System.out.println("\n=== TEST 5: seller update =====");
+		sel = sell.findById(1);
+		sel.setName("Mario Brown");
+		sell.update(sel);
+		System.out.println("Upadate completed");
+		
 
 		
 
