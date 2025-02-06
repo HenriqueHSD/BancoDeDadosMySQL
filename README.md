@@ -1,6 +1,6 @@
 # Implementação do Banco de Dados
 
-O projeto tem com intuito de fazer a implementação do banco de dado SQL com o Java podedo fazer consultas, inserir, alterar e deletar.
+O projeto tem como intuito fazer a implementação do banco de dados SQL com o Java, podendo fazer consultas, inserir, alterar e deletar.
 
 ### 📋 Pré-requisitos
 
