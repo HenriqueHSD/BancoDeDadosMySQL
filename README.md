@@ -2,7 +2,7 @@
 
 O projeto tem como intuito fazer a implementação do banco de dados SQL com o Java, desenvolvido no curso de JAVA do Nelio Alves, podendo fazer consultas, inserir, alterar e deletar.
 
-### 📋 Pré-requisitos
+## 📋 Pré-requisitos
 
 ```
 Java 17 ou 21
@@ -10,7 +10,7 @@ MySQL
 IDE Intellij ou Eclipe
 ```
 
-### 🔧 Instalação
+## 🔧 Instalação
 
 
 Conexão do MySQL com JAVA
@@ -27,7 +27,7 @@ Criando a base de dados
 •No GitHub abra o arquivo database.sql
 •Cópia o conteúdo e execute no seu MySQL
 ```
-📋 Verificação
+### 📋 Verificação
 
 ```
 No arquivo db.properties verifique ser o user, passord e dburl esta do mesmo jeito do seu MySQL caso nao esteja alterar para os valores do seu MySQL
